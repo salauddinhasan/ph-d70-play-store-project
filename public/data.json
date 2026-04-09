@@ -1,0 +1,164 @@
+[
+  {
+    "image": "https://i.ibb.co.com/4RDqtk3v/27af20ee-b01c-4ec6-b4f5-403a438a912e-height-640-format-webp.webp",
+    "title": "Chat Master",
+    "companyName": "TechSoft Ltd",
+    "id": 1,
+    "description": "A smart chatting application for daily communication.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Fk3z9Bvm/JD80m-F8-UDhg4-Pqbh-Q49-Kb-F3jd-LS86krio-RRBl-XWLQg9w9-SRr-QP1f-M6cl6-N80-OF8m-A.png",
+    "title": "Photo Editor Pro",
+    "companyName": "PixelLab",
+    "id": 2,
+    "description": "Edit photos with powerful tools and filters.",
+    "size": 60,
+    "reviews": 2300,
+    "ratingAvg": 4.6,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1360 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "title": "Music Beats",
+    "companyName": "SoundWave",
+    "id": 3,
+    "description": "Stream and enjoy millions of songs.",
+    "size": 70,
+    "reviews": 1800,
+    "ratingAvg": 4.4,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1105 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "title": "Fitness Tracker",
+    "companyName": "HealthTech",
+    "id": 4,
+    "description": "Track your daily workouts and health.",
+    "size": 55,
+    "reviews": 1500,
+    "ratingAvg": 4.3,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 580 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "title": "Food Delivery",
+    "companyName": "QuickEat",
+    "id": 5,
+    "description": "Order your favorite food easily.",
+    "size": 80,
+    "reviews": 3000,
+    "ratingAvg": 4.7,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1940 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "title": "News Today",
+    "companyName": "DailyMedia",
+    "id": 6,
+    "description": "Stay updated with latest news.",
+    "size": 35,
+    "reviews": 900,
+    "ratingAvg": 4.2,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "title": "Game Zone",
+    "companyName": "FunGames",
+    "id": 7,
+    "description": "Play exciting games anytime.",
+    "size": 120,
+    "reviews": 5000,
+    "ratingAvg": 4.8,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 3860 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "title": "Travel Guide",
+    "companyName": "ExploreWorld",
+    "id": 8,
+    "description": "Find best places and plan your trips.",
+    "size": 65,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "title": "Learning Hub",
+    "companyName": "EduTech",
+    "id": 9,
+    "description": "Learn new skills with online courses.",
+    "size": 90,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1130 }
+    ]
+  }
+]
