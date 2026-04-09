@@ -15,6 +15,7 @@ const MyNavBar = ({ to, children }) => {
       {children}
     </NavLink>
   );
+  
 };
 
 export default MyNavBar;

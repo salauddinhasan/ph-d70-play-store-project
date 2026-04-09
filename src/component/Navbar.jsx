@@ -6,7 +6,7 @@ import MyNavBar from "./MyNavBar";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-50 flex justify-between items-center px-4 md:px-8 py-3 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+    <div className="sticky top-0 z-50 flex justify-between items-center px-4 md:px-8 py-3 bg-gray-950/90 backdrop-blur-md border-b border-gray-800/50">
       {/* Logo Section */}
       <div className="flex items-center gap-2">
         <img
