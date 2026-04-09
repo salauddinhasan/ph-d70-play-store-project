@@ -3,20 +3,23 @@ import heroImg from "../assets/logo.png";
 // react-router-dom hole change kore niben
 import { FaGithub } from "react-icons/fa";
 import MyNavBar from "./MyNavBar";
+import { Link } from "react-router";
 
 const Navbar = () => {
   return (
     <div className="sticky top-0 z-50 flex justify-between items-center px-4 md:px-8 py-3 bg-gray-950/90 backdrop-blur-md border-b border-gray-800/50">
       {/* Logo Section */}
-      <div className="flex items-center gap-2">
-        <img
-          src={heroImg}
-          alt="Logo"
-          className="w-10 h-10 object-contain hover:scale-110 transition-transform cursor-pointer"
-        />
-        <span className="text-white font-bold text-xl hidden md:block">
-          DevApp
-        </span>
+      <div>
+        <Link to="/" className="flex items-center gap-2 group">
+          <img
+            src={heroImg}
+            alt="Logo"
+            className="w-10 h-10 object-contain group-hover:scale-110 transition-transform cursor-pointer"
+          />
+          <span className="text-white font-bold text-xl hidden md:block">
+            DevApp
+          </span>
+        </Link>
       </div>
 
       {/* Navigation Links */}
@@ -25,7 +28,7 @@ const Navbar = () => {
           <li>
             <MyNavBar to={"/home"}>Home</MyNavBar>
           </li>
-          <li> 
+          <li>
             <MyNavBar to={"/apps"}>Apps</MyNavBar>
           </li>
           <li>
