@@ -2,8 +2,7 @@ import React from "react";
 
 const TrendingAppStore = ({ app }) => {
   return (
-    <div
-      key={app.id}
+    <div 
       className="bg-gray-900 border border-gray-800 rounded-2xl hover:border-red-500/40 hover:-translate-y-1 transition-all duration-300 p-4"
     >
       {/* Image */}

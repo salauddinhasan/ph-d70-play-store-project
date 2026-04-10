@@ -103,7 +103,7 @@ const HomePage = () => {
         </section>
       </div>
 
-      <TrendingApps/>
+      <TrendingApps />
     </div>
   );
 };
