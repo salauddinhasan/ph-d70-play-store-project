@@ -17,6 +17,20 @@ const AppDetails = () => {
     );
   }
 
+  const handleInstall = (app) => {
+    const savedApps = JSON.parse(localStorage.getItem("installed-apps")) || [];
+
+    const isExist = savedApps.find((item) => item.id === app.id);
+
+    if (!isExist) {
+      const newApps = [...savedApps, app];
+      localStorage.setItem("installed-apps", JSON.stringify(newApps));
+      alert(`${app.title} installation started! Check your Installation page.`);
+    } else {
+      alert("This app is already in your installation list!");
+    }
+  };
+
   return (
     <div className="bg-gray-950 min-h-screen p-5 md:p-10 text-white font-sans">
       <div className="max-w-6xl mx-auto">
@@ -43,7 +57,8 @@ const AppDetails = () => {
                     Developed by : {app.companyName || "Productive.io"}
                   </p>
                 </div>
-                <button className="btn btn-error text-white px-8 rounded-2xl font-bold flex items-center gap-2 hover:scale-105 transition-transform shadow-lg shadow-red-500/20">
+
+                <button onClick={() => handleInstall(app)} className="btn btn-error text-white px-8 rounded-2xl font-bold flex items-center gap-2 hover:scale-105 transition-transform shadow-lg shadow-red-500/20">
                   <FaDownload /> Install Now (291 MB)
                 </button>
               </div>
