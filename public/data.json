@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "image": "https://i.ibb.co.com/Q3xG2fpY/fitness-sport-people-line-art-outline-logo-icon-587843-257.jpg",
     "title": "Fitness Tracker",
     "companyName": "HealthTech",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "image": "https://i.ibb.co.com/jPWWNCyR/pngtree-food-delivery-logo-fitness-template-image-525748.png",
     "title": "Food Delivery",
     "companyName": "QuickEat",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "image": "https://i.ibb.co.com/7Jmvs0P2/png-clipart-news-computer-icons-apple-ios-9-news-text-logo-thumbnail.png",
     "title": "News Today",
     "companyName": "DailyMedia",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "image": "https://i.ibb.co.com/mryZPdL0/hand-drawn-gaming-logo-template-23-2150730869.jpg",
     "title": "Game Zone",
     "companyName": "FunGames",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "image": "https://i.ibb.co.com/bjnGnGY9/travel-agency-travel-tour-guide-logo-template-design-a71960901268cab692bf043764fecbe4-screen.jpg",
     "title": "Travel Guide",
     "companyName": "ExploreWorld",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/qYK1bnb6/beats.png",
+    "image": "https://i.ibb.co.com/b5g22P7x/images-q-tbn-ANd9-Gc-THNt-AOb-Tz7b-RVs-VKax-ILV2-Ytae-Di-Vf-lw-Vg-s.jpg",
     "title": "Learning Hub",
     "companyName": "EduTech",
     "id": 9,
@@ -159,6 +159,96 @@
       { "name": "3 star", "count": 120 },
       { "name": "4 star", "count": 800 },
       { "name": "5 star", "count": 1130 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/W44MZtdY/Uhi-H9pye-Gc-D-LGcv-NLGdn-Z-w-Zp3-JI-hngz0-ABc-QPS6n-YSWi-XYV7-o-K6-TDQdzcmy-POw-w600-h300-pc0xffffff-p.png",
+    "title": "Finance Tracker",
+    "companyName": "MoneyWise",
+    "id": 10,
+    "description": "Manage your expenses and savings effectively with real-time insights.",
+    "size": 32,
+    "reviews": 4200,
+    "ratingAvg": 4.8,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 1120 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Mx7W90MB/PGb22x-QGDUgsh4-Cy-ZMkd-R1k44i-Zlqb-Mb-DRbo-Cya-Bq-NCn-M3-Hjc8-F1b-C9m-BIF9-SOahj-An.jpg",
+    "title": "SkyCast Weather",
+    "companyName": "MeteoGroup",
+    "id": 11,
+    "description": "Get accurate hourly and weekly weather forecasts with interactive radar.",
+    "size": 28,
+    "reviews": 850,
+    "ratingAvg": 4.1,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0pJ4nbF2/hilg-4o-Lt1f-Cads0-Lk7i98x-RZ29mc85-Pm59-CAm4c-Uj-u-Gn-Xz77-KBiut-VLBJGs-Pi2s-Y.png",
+    "title": "Shield VPN",
+    "companyName": "CyberGuard",
+    "id": 12,
+    "description": "Secure your internet connection and protect your privacy globally.",
+    "size": 40,
+    "reviews": 6700,
+    "ratingAvg": 4.7,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ndh3qmk6/master-chef-logo-design-template-ba93d03f3f363ca0e0f1016e9e4d483a-screen.jpg",
+    "title": "Master Chef Recipes",
+    "companyName": "TastyBites",
+    "id": 13,
+    "description": "Discover thousands of delicious recipes from world-class chefs.",
+    "size": 95,
+    "reviews": 1950,
+    "ratingAvg": 4.5,
+    "downloads": 65000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NdB7V6Xr/t3n1ao-QNFCiz6-Xc-AJ59-Zqc-Bft-Xs55t-Ic1-Uqeg-FTVy-Kkm73-Hq-Bwzswnt-O2a-P6-SF-TTPAFqb01-Uxye-AYD-6ax-MA.png",
+    "title": "Focus Timer",
+    "companyName": "DeepWork Studio",
+    "id": 14,
+    "description": "Boost your productivity using the Pomodoro technique and lo-fi beats.",
+    "size": 22,
+    "reviews": 3100,
+    "ratingAvg": 4.9,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 2600 }
     ]
   }
 ]

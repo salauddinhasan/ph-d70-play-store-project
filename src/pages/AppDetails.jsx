@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import useAppsData from "../hooks/useAppsData";
 import { FaArrowAltCircleDown, FaStar, FaDownload } from "react-icons/fa";
 import { BsFillHandThumbsUpFill } from "react-icons/bs";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -25,14 +26,14 @@ const AppDetails = () => {
     if (!isExist) {
       const newApps = [...savedApps, app];
       localStorage.setItem("installed-apps", JSON.stringify(newApps));
-      alert(`${app.title} installation started! Check your Installation page.`);
+      toast.success(`${app.title} installation started! Check your Installation page.`);
     } else {
-      alert("This app is already in your installation list!");
+      toast.warning("This app is already in your installation list!");
     }
   };
 
   return (
-    <div className="bg-gray-950 min-h-screen p-5 md:p-10 text-white font-sans">
+    <div className="bg-gray-950  p-5 md:p-10 text-white font-sans">
       <div className="max-w-6xl mx-auto">
         {/* Top Section: Header & Quick Stats */}
         <div className="bg-gray-900/50 border border-gray-800 p-6 md:p-10 rounded-3xl backdrop-blur-xl shadow-2xl mb-8">

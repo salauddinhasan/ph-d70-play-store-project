@@ -14,7 +14,7 @@ const TrendingApps = () => {
         </h2>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
-          {data.slice(0, 6).map((app, id) => (
+          {data.slice(0, 9).map((app, id) => (
             <div key={id}>
               <TrendingAppStore app={app} />
             </div>
@@ -22,8 +22,10 @@ const TrendingApps = () => {
         </div>
       </div>
 
-      <Link to="/apps" className="flex justify-center  pt-14 ">
-        <button className="btn">Show All</button>
+      <Link to="/apps" className="flex justify-center pt-14">
+        <button className="btn btn-outline border-red-500 text-red-500 hover:bg-red-500 hover:border-red-500 px-10 rounded-full hover:text-white font-bold transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg shadow-red-500/10">
+          Show All Apps
+        </button>
       </Link>
     </div>
   );
