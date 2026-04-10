@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import useAppsData from "../hooks/useAppsData";
 
 const Apps = () => {
@@ -47,9 +48,12 @@ const Apps = () => {
             </div>
 
             {/* Action Button */}
-            <button className="mt-6 w-full bg-red-500 hover:bg-red-600 text-white py-3 rounded-xl font-bold transition-all active:scale-95 shadow-lg shadow-red-500/20">
-              View Details
-            </button>
+
+            <Link to={`/apps/${app.id}`}>
+              <button className="mt-4 w-full bg-red-500 hover:bg-red-600 text-white py-2 rounded-xl font-semibold transition-colors active:scale-95">
+                View Details
+              </button>
+            </Link>
           </div>
         ))}
       </div>

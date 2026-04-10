@@ -9,6 +9,7 @@ import Home from "./pages/Home.jsx";
 import Installation from "./pages/Installation.jsx";
 import HomePage from "./hompage/HomePage.jsx";
 import TrendingApps from "./hompage/TrendingApps.jsx";
+import AppDetails from "./pages/AppDetails.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -18,6 +19,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/" element = {<TrendingApps/>}/>
         <Route path="/home" element={<Home/>} />
         <Route path="/apps" element={<Apps/>} />
+        <Route path="/apps/:id" element={<AppDetails/>}/>
         <Route path="/installation" element={<Installation/>} />
       </Route>
     </Routes>

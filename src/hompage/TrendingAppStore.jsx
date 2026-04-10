@@ -1,10 +1,9 @@
 import React from "react";
+import { Link } from "react-router";
 
 const TrendingAppStore = ({ app }) => {
   return (
-    <div 
-      className="bg-gray-900 border border-gray-800 rounded-2xl hover:border-red-500/40 hover:-translate-y-1 transition-all duration-300 p-4"
-    >
+    <div className="bg-gray-900 border border-gray-800 rounded-2xl hover:border-red-500/40 hover:-translate-y-1 transition-all duration-300 p-4">
       {/* Image */}
       <div className="h-40 flex items-center justify-center bg-gray-800 rounded-xl mb-4">
         <img
@@ -25,9 +24,11 @@ const TrendingAppStore = ({ app }) => {
       </div>
 
       {/* Button */}
-      <button className="mt-4 w-full bg-red-500 hover:bg-red-600 text-white py-2 rounded-xl font-semibold transition-colors">
-        View Details
-      </button>
+      <Link to={`/apps/${app.id} className='block'`}>
+        <button className="mt-4 w-full bg-red-500 hover:bg-red-600 text-white py-2 rounded-xl font-semibold transition-colors">
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };
