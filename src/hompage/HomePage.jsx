@@ -42,11 +42,11 @@ const HomePage = () => {
         {/* Hero Image Section with Glow */}
         <section className="relative max-w-5xl mx-auto px-6 py-10">
           <div className="absolute inset-0 bg-red-500/10 blur-[120px] rounded-full"></div>
-          <div className="relative border border-gray-800 rounded-3xl overflow-hidden shadow-2xl">
+          <div className="relative">
             <img
               src={heroImg}
               alt="App Mockup"
-              className="w-full h-auto hover:scale-105 transition-transform duration-700"
+              className="w-full h-auto"
             />
           </div>
         </section>
